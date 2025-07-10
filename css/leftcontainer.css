@@ -7,7 +7,7 @@
     background: linear-gradient(360deg,#222a35 90%, 
     #fec000 90%, #fec000 100%);
     box-sizing: border-box;
-    padding: 15px 28px;
+    padding: 24px 32px;
     justify-content: flex-start;
     gap: 38px;
 }
@@ -40,7 +40,7 @@
 }
 
 .icon {
-    width: 120px;
+    width: 150px;
     height: auto;
     border: 5px #fec000 solid;
     border-radius: 50%;
@@ -105,7 +105,7 @@
 
 .skill-bar-base {
     height: 4px;
-    width: 60px;
+    width: 70px;
     border-radius: 50px;
     background-color: #2f3646;
 }

@@ -67,3 +67,35 @@
     background-color: #fec000;
     border-radius: 500px
 }
+
+.experience-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.stupid-damn-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4px 10px 0px 8px;
+}
+
+.first-yellow-circle, .second-yellow-circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    background-color: #fec000;
+}
+
+.gray-line {
+    width: 2px;
+    height: 114px;
+    background-color: #d8d8da;
+}
+
+.experience-text {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
