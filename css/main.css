@@ -9,8 +9,20 @@ h2 {
 }
 
 h4 {
+    font-size: 12pt;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
+}
+
+h5 {
+    margin: 0px;
+    font-size: 10pt;
+    margin-left: 5px;
+}
+
+p {
+    font-size: 9pt;
+    margin: 0px 0px 0px 5px
 }
 
 .main-container {
@@ -26,7 +38,7 @@ h4 {
 
 .left-container {
     align-items: flex-start;
-    width: 150px;
+    width: 160px;
     background: #2A7B9B;
     background: linear-gradient(360deg,#222a35 90%, 
     #fec000 90%, #fec000 100%);
@@ -45,16 +57,21 @@ h4 {
     width: 300px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
-    margin-top: 20px;
+    gap: 20px;
+    margin-top: 30px;
 }
 
 .right-content-container {
     display: flex;
     width: 100%;
-    align-items: center;
-    margin-left: 20px;
-    justify-content: center;
+    margin-left: 24px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon-title-wrapper {
+    display: flex;
+    flex-direction: row;
 }
 
 .right-title-container {
@@ -62,6 +79,7 @@ h4 {
     width: 100%;
     flex-direction: column;
     margin-left: 5px;
+    margin-bottom: 5px;
 }
 
 .right-container img {
